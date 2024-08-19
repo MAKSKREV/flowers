@@ -1,0 +1,627 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+
+}
+header{
+  width: 1440px;
+  position: fixed;
+  height: 70px;
+
+left: 0%;
+
+background: #FCEFE4;
+
+width: 100%;
+height: 5%;
+top:0%;
+
+  z-index: 251255;
+  
+}
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+.main {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: 0%;
+  top: 5%;
+  z-index: 115;
+  background-image: url(./assets/bec.png);
+  background-size: 100% 100%; 
+}
+
+.box {
+  position: absolute; /* Position the box absolutely */
+  top: 45%;
+  left: 9%;
+  width: 45%;
+  height: 42%;
+  z-index: 1; /* Set a z-index to ensure it overlaps the main element */
+}
+.box h1{
+position: relative;
+font-family: Montserrat;
+font-size: 64px;
+font-weight: 700;
+top: 10%;
+
+line-height: 78.02px;
+letter-spacing: 0.02em;
+text-align: left;
+
+
+}
+.box p{
+  position: absolute;
+  font-family: Source Sans Pro;
+  font-size: 24px;
+  top: 0%;
+  font-weight: 400;
+  line-height: 30.17px;
+  text-align: left;
+  
+  
+  
+  }
+  
+  .box button{
+    position: absolute;
+    width: 275px;
+    height: 74px;
+    gap: 0px;
+    top: 56%;
+    left: 0%;
+    border-radius: 37px;
+    opacity: 0px;
+    
+    background: #D7537A;
+
+    
+    
+    
+    
+    }
+    .box h2{
+      position: relative;
+      top: 10%;
+
+      font-family: Montserrat;
+      font-size: 24px;
+      font-weight: 700;
+      line-height: 29.26px;
+      color: #fff
+      ;
+
+      
+      
+      
+      
+      }
+header img{
+  z-index: 2;
+  position: relative;
+  width: 20;
+  height: 100%;
+  cursor: pointer;
+}
+#Logo:hover{
+  width: 10%;
+  animation: Logoo 0.8s infinite;
+}
+@keyframes Logoo{
+  0%{
+    width: 10%;
+  }
+  50%{
+    width: 10.5%;
+  }
+  100%{
+    width: 10%;
+  }
+}
+.skidkii {
+  position: absolute;
+  height: 70%;
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  width: 100%;
+  top: -85%;
+  left: 0%;z-index: 15;
+  background-color: none;
+}
+.skidkii img {
+
+  width: 100%; /* make the image take up the full width of the box */
+}
+
+.boxx {
+  background-color: #FFFFFF; /* white background */
+  width: 70%;
+  padding: 10px; /* add some padding to make it look nicer */
+  display: inline-block; /* make it an inline block element */
+  margin: 5px; /* add some margin to separate the boxes */
+  height: 65%;
+  border-radius: 0px 20px 20px 20px;
+}
+.Xit p {
+  display: flex;
+  flex-direction: column;
+
+  align-items: center;
+position: relative;
+  padding: 2px 5px; /* adjust the padding to your liking */
+  background-color: #FFFFFF; /* white background */
+  border-radius: 0px 10px 10px 0px; /* add a slight border radius */
+}
+.Xit {
+  display: inline-block;
+  position: relative;
+  top: -350px;
+  left: -45px;
+
+
+}
+.zakaz{
+position: relative;
+  width: 140px;
+height: 40px;
+left: 5%;
+top: -3%;
+gap: 0px;
+border-radius: 20px;
+opacity: 0px;
+background: #D7537A;
+
+
+  
+}
+.zakaz p{
+  color: #fff;
+  position: relative;
+  top: -3px;
+  
+}
+.imazakaza{
+  position: relative;
+  top: -25%;
+  font-family: Montserrat;
+font-size: 20px;
+font-weight: 500;
+line-height: 19.5px;
+
+}
+.skidka{
+  position: relative;
+  font-family: Montserrat;
+font-size: 18px;
+font-weight: 500;
+line-height: 19.5px;
+text-align: left;
+top: -27.5%;
+color: #7EA048;
+
+left: 22%;
+
+
+}
+.full{
+  text-decoration: line-through;
+  position: relative;
+  color: #8E8D6F;
+  font-family: Montserrat;
+  font-size: 15px;
+  font-weight: 500;
+  top: -25%;
+  left: 24%;
+  line-height: 15.85px;
+  text-align: left;
+  
+}
+.knopki{
+  position: absolute;
+  top: -30%;
+  left: 45%;
+  z-index: 15;
+
+}
+.pink-button {
+  background-color: #FD4F79; /* pink color */
+  
+}
+.knopki button {
+  margin-right: 10px; 
+  padding: 8px 30px;
+  cursor: pointer;
+  background: #DD9EAB;
+
+  border-radius: 100px;
+
+}
+button{
+  z-index: 10;
+}
+button:hover{
+  background: #D7537A;
+  border-color: #DD9EAB !important;
+}
+.becc{
+  background-color: #FCEFE4;
+  width: 100%;
+  position: absolute;
+  left: 0%;top: 100%;
+  z-index: 1;
+  height: 100%;
+}
+.fade-in {
+  animation: fadeIn 0.5s;
+}
+.boxx img {
+  border-radius: 0px 10px 0px 0px; /* adjust the value to your liking */
+}
+.fade-out {
+  animation: fadeOut 0.5s;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes fadeOut {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+  }
+}
+.gray-background {
+  background-color: #FD4F79 !important;
+}
+.opa{
+  position: absolute;
+  top:107%;
+  z-index: 10;
+  font-size: 60px;
+  font-weight: 700;
+  left: 5%;
+}
+.Svetok0{
+  position: absolute;
+  top:95%;
+  z-index: 10;
+  left: -2%;
+}
+.Svetok1{
+  position: absolute;
+  top:165%;
+  z-index: 15;
+  right: 0%;
+}
+.menu{
+  position: relative;
+  top: 0%;
+  height: 100%;
+  width: 500px;
+  left: 5%;z-index:15;
+  border:  none !important;
+
+}
+.menu button{
+  border:  none !important;
+}
+
+.burger {
+  position: absolute;
+  top: -525px;
+  right: 950px;
+
+  background-color: #FCEFE4 !important;
+  cursor: pointer;
+}
+
+.burger span {
+  display: block;
+  width: 35px;
+  height: 2px;
+  background-color: #000000;
+  margin-bottom: 8px;
+  transition: 0.3s;
+}
+
+.burger span:last-child {
+  margin-bottom: 0;
+}
+
+.nav {
+  position: fixed; /* Position the nav fixed */
+  top: 53px;
+  left: 0;
+  background-color: #8b6767;
+  padding: 20px;
+  height: 100%;
+  width: 500px;
+  transform: translateX(-100%);
+  transition: 0.3s;
+  z-index: 1500; /* Set a higher z-index to ensure it overlaps the box element */
+}
+
+.nav.hide {
+  visibility: hidden;
+  opacity: 0;
+}
+
+.nav.show {
+  visibility: visible;
+  opacity: 1;
+  transform: translateX(0);
+}
+.nav ul {
+  padding: 0; /* remove default padding */
+  text-align: left;
+  position: relative;
+  width: 10%;
+}
+
+.nav li {
+  position: relative;
+  width: 890%;
+  margin-bottom: 10px;
+  opacity: 0; /* initial opacity */
+  transition: opacity 0.3s; /* transition duration */
+  left: 0%;
+ 
+}
+.nav.show li {
+  opacity: 1; /* final opacity */
+}
+.nav a {
+  color: #fff;
+  text-decoration: none;
+  padding: 5px 150px 10px;
+  background-color: #df7d7d;
+
+}
+
+.nav a:hover {
+  color: #ccc;
+
+}
+.above-all {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 99999;
+}
+.ull{
+  padding: 5px;
+}
+.navbar-toggler {
+  border: none;
+  padding: 0;
+}
+
+.navbar-toggler-icon {
+  font-size: 24px;
+  color: #333;
+}
+
+.collapse {
+  transition: height 0.3s ease-in-out;
+}
+
+.show {
+  height: auto;
+}
+.up {
+  transform: rotate(180deg);
+}
+
+.down {
+  transform: rotate(0deg);
+}
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+ 100% {
+    opacity: 1;
+  }
+}
+
+.nav li {
+  animation: fadeIn 0.5s; /* animation duration */
+}
+.up,.down {
+  transition: transform 0.5s; /* transition duration */
+}
+.sidenav-collapse {
+  max-height: 0;
+  overflow: hidden;
+  width: auto;
+  transition: max-height 0.5s ease-in-out;
+}
+
+.sidenav-collapse.show {
+  max-height: 100vh; /* or a fixed height value */
+  transition: max-height 0.5s ease-in-out;
+  width:auto;
+}
+
+@keyframes close {
+  0% {
+    max-height: 100vh;
+  }
+  100% {
+    max-height: 0;
+  }
+}
+
+.sidenav-collapse.hide {
+  animation: close 0.5s ease-in-out;
+}
+
+.sidenav-link {
+  background-color: #333!important;
+}
+.pool {
+  cursor: pointer;
+  position: relative;
+  top: -70%;
+  left: 8%;
+  width: 1.7%;
+  z-index: 15;
+  transition: 0.3s; 
+}
+
+.pool span {
+  display: block;
+  width: 35px;
+  height: 2px;
+  background-color: #000000;
+  margin-bottom: 8px;
+  transition: 0.3s; 
+}
+
+.pool:hover span {
+  width: 40px;
+  height:3px;
+}
+.iconss{
+  position: absolute;
+  width: 100%;
+  left: 0%;
+  top: -25%;
+
+}
+
+.iconss img {
+  width: 2%;
+  margin: 20px;
+  cursor: pointer;
+  position: relative;
+  left: 35%;
+  transition: transform 0.3s; /* add transition effect */
+}
+
+.iconss img:hover {
+  transform: scale(1.3); /* enlarge the image on hover */
+}
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  position: relative;
+  top: 150%;
+  gap: 20px;
+}
+
+.becc2{
+  background-color: #FCEFE4;
+  width: 100%;
+  position: absolute;
+  left: 0%;top: 175%;
+  z-index: 10;
+  height: 200%;
+}
+.Forma{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 475%;
+  background-color: #FCEFE4;
+}
+.subb{
+  position: absolute;
+  background-color: #FD4F79;
+  left: 40%;
+  top: 80%;
+}
+
+.ostavte{
+  position: absolute;
+  color: #cc1137;
+  font-size: 30px;
+  left: 46.5%;
+  width: 50%;
+  top: 12%;
+  text-align: center;
+}
+.namee{
+  position: relative;
+  left: -10%;
+  top: 20px;
+  width: 130%;
+}
+.tele{
+  position: relative;
+  left:54%;
+  top: -70px;
+  width: 130%;
+}
+.krest {
+  position: absolute;
+  color: #000000;
+left: 92%;
+top: 0%;
+  background-color: rgba(0, 0, 0, 0) !important;
+  font-size: 14px;
+  cursor: pointer;
+  transition: font-size 0.2s, background-color 0.2s; /* added transition */
+}
+
+.krest:hover {
+  font-size: 15px;
+  background-color: #fff !important;
+  border: none !important;
+  box-shadow: none !important;
+}
+.krest:focus{
+  position: absolute;
+  color: #000000;
+  background-color: #fff !important;
+  border-color: #fff!important;
+  border: none !important;
+}
